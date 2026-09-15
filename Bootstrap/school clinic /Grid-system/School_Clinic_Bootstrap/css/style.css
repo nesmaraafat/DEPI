@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* start header home section  */
+
+.header-home {
+    height: 775px;
+    background-image: url(../img/download.jpg);
+    background-size: cover;
+}
+
+.header-home h2 {
+    background-color: rgba(85, 159, 136, 0.719);
+    color: #fff;
+    padding: 50px;
+    width: 80%;
+    margin: auto;
+    margin-top: 200px;
+    border-radius: 21px;
+    font-size: 36px;
+    font-family: monospace;
+    line-height: 1.7;
+    padding-left: 70px;
+    letter-spacing: 1px;
+}
+
+@media (max-width:575px) {
+    .header-home {
+        background-position: right;
+    }
+    .header-home h2 {
+        font-size: 22px;
+    }
+}
+
+/* end header home section  */
+
+/* start school home section */
+
+.school-home {
+    font-family: cursive;
+}
+
+.school-home h3 {
+    color: #074d4c;
+    font-size: 28px;            
+    font-weight: lighter;
+    letter-spacing: 1px;
+
+}
+
+.school-home hr {
+    width: 180px;
+    height: 4px;
+    background-color: #e98317;
+    margin: auto;
+    margin-top: 13px;
+    border: none;
+
+}
+
+.school-home h4 {
+    color: #53a5b1;
+}
+
+.school-home p {
+    color: #242323;
+}
+
+/* end school home section */
+
+/* start touch home section */
+
+.touch-home {
+    height: 812px;
+    background: url(../img/Path\ 62.png) ,url(../img/i-love-my-job-so-much_329181-2178.png);
+    background-size: cover;
+}
+
+.touch-home h2 {
+    font-family: cursive;
+}
+
+.card {
+    min-height: 360px;
+    border-radius: 15px !important;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.card img {
+    height: 160px;
+}
+.card h5 {
+    color: #61a5b4;
+}
+
+@media (max-width:991px) {
+    .touch-home {
+        height: fit-content;
+        padding-bottom: 30px;
+    }
+}
+/* end touch home section */
+
+
+/* start about home section */
+
+@media (max-width:767px) {
+    .about-home img {
+        width: 50% !important;
+    }
+}
+/* end about home section */
+
+
+/* start footer home section */
+
+.footer-home {
+    background-color: #0f7b65;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border-radius: 150px 150px 0px 0px;
+}
+
+.footer-home h3 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer-home h5 {
+    color: #ed8b70;
+    font-size: 26px;font-weight: lighter;
+    padding-bottom: 15px;
+}
+
+@media (max-width:767px) {
+    .footer-content {
+        text-align: center;
+    }
+}
+/* end footer home section */
