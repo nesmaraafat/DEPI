@@ -1,0 +1,15 @@
+/* start header home section */
+
+.header-home {
+    background-image: url('../image/download.jpg');
+}
+
+/* end header home section */
+
+/* start touch home section */
+
+.touch-home {
+    background-image: url('../image/Path\ 62.png'), url('../image/i-love-my-job-so-much_329181-2178.png');
+}
+
+/* end touch home section */
