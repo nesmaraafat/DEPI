@@ -1,0 +1,18 @@
+body {
+    background-color: #f5f5f5;
+    font-family: cursive;
+}
+
+button {
+    border: none;
+    border-radius: 15px;
+    color: #fff;
+    background-color: #416092;
+    font-size: 12px;
+    padding: 8px 12px;
+    letter-spacing: 1.2px;
+}
+
+h3 {
+    color: #2a2828;
+}
