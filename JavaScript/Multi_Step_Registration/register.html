@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body style="background-color: #f6f8ff">
+
+
+    <div class="container mt-5 pt-5">
+        <div class="row">
+            <div class="md:col-6">
+                <img src="images/2.jpg" class="w-75 ">
+            </div>
+
+            <div class="md:col-6">
+                <h2 class="fg-black">Create Account</h2>
+                <h4 class="mt-4 mb-7 fg-secondary">Go ahead and sign up, let everyone<br>knows how awesome you are!</h4>
+
+                <h5 id="result" class="fg-black"></h5>
+
+                <form onsubmit="return validateData()" action="success.html" method="post" data-bs-theme="light">
+                    <input id="user" class="form-control p-4 mb-7 rounded-2" type="text" name="user" placeholder="User Name">
+
+                    <input id="email" class="form-control p-4 mb-7 rounded-2" type="text" name="email" placeholder="Email">
+
+                    <input id="pass" class="form-control p-4 mb-7 rounded-2" type="password" name="pass" placeholder="Password">
+
+                    <input id="confirm" class="form-control p-4 mb-7 rounded-2" type="password" name="confirm" placeholder="Confirm Password">
+
+                    <input class="btn-solid theme-primary d-block w-100" type="submit" value="Create New Account">
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
