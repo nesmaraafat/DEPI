@@ -1,0 +1,362 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* start top bar home section */
+.site-topbar {
+  background-color: #e26965;
+  color: #ffffff;
+  font-size: 13px;
+}
+
+.site-topbar a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.site-topbar .social-link {
+  width: 24px;
+  height: 24px;
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.site-topbar .social-link:hover {
+  opacity: 0.85;
+}
+
+.social-link i {
+  font-size: 14px;
+}
+
+.site-topbar .dropdown-menu {
+  background-color: #ffffff;
+  border: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  padding: 5px 0;
+}
+
+.site-topbar .dropdown-item {
+  color: #333333;
+  font-size: 13px;
+  padding: 8px 16px;
+}
+
+.site-topbar .dropdown-item:hover {
+  background-color: #f8f9fa;
+  color: #e26965;
+}
+/* end top bar home section */
+
+/* start navbar home section */
+.navbar {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.03);
+}
+
+.navbar-brand .navbar-logo {
+  height: 42px;
+  object-fit: contain;
+}
+
+.navbar .navbar-nav .nav-link {
+  color: #333333;
+  font-weight: 500;
+  font-size: 15px;
+  padding: 8px 12px;
+}
+
+.nav-search {
+  display: flex;
+  align-items: center;
+  min-width: 220px;
+
+}
+
+.nav-search input {
+  padding-left: 40px;
+  background-color: #e5f7ef;
+  border: 1px solid #e0e0e0;
+  font-size: 14px;
+}
+
+.nav-search input:focus {
+  border-color: #e26965;
+  box-shadow: 0 0 0 0.2rem rgba(226, 105, 101, 0.15);
+}
+
+.nav-search .nav-search-icon {
+  position: absolute;
+  left: 14px;
+  width: 16px;
+  height: 16px;
+  opacity: 0.6;
+}
+
+.btn-henna {
+  background-color: #e26965;
+  color: #ffffff;
+  font-weight: 600;
+  border: none;
+}
+
+.btn-henna:hover {
+  background-color: #c95552;
+  color: #ffffff;
+}
+/* end navbar home section */
+
+/* start third navbar home section */
+.breadcrumb-bar {
+  background-color: #ffffff;
+  border-top: 1px solid #f0f0f0;
+  font-size: 14px;
+}
+
+.btn-register {
+  background-color: #e26965;
+  color: #ffffff;
+  padding: 6px 18px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.btn-register:hover {
+  background-color: #c95552;
+}
+
+.btn-login {
+  color: #ac635b;
+  background-color: #fdeee7;
+  padding: 6px 12px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.btn-login:hover {
+  color: #e26965;
+}
+/* end third navbar home section */
+
+/* start hero home section */
+.hero {
+  background-image: url(../img/back-header.png),url(../img/back-header-back.png);
+  background-size: cover;
+  background-position: center 80%;
+  min-height: 520px;
+}
+
+.hero-title {
+  font-size: 42px;
+  letter-spacing: 1px;
+}
+
+.hero-text {
+  font-size: 15px;
+  opacity: 0.95;
+  line-height: 1.6;
+}
+/* end hero home section */
+
+/* start category + providers cards */
+.category-card,
+.provider-card {
+  height: 280px;
+}
+
+.card-label-wrap,
+.card-label-wrap {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.category-label,
+.provider-label {
+  display: block;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.category-label {
+  background-color: rgba(120, 70, 60, 0.75);
+  color: #ffffff;
+  padding: 12px 0;
+  font-weight: 500;
+}
+
+.card-label-wrap:hover .category-label {
+  background-color: rgba(120, 70, 60, 0.95);
+}
+
+.provider-label {
+  background-color: #cae5d8;
+  color: #333333;
+  padding: 10px 0;
+  font-weight: 700;
+  font-size: 14px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+/* end category + providers cards */
+
+/* start services home section */
+.service-image {
+  height: 140px;
+}
+
+.wishlist-button {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  border-radius: 50%;
+}
+
+.wishlist-button i {
+  font-size: 13px;
+}
+
+
+.service-card:hover {
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+}
+
+.service-card .text-warning {
+  font-size: 12px;
+}
+
+.service-card span {
+  font-size: 11px;
+}
+/* end services home section */
+
+/* start join providers home section */
+.join-section p {
+  line-height: 1.8;
+}
+
+.join-section .provider-card {
+  height: 180px;
+}
+/* end join providers home section */
+
+/* start newsletter download home section */
+.newsletter-section .mint-field {
+  background-color: #d6eee3;
+}
+
+.newsletter-section .form-control {
+  font-size: 14px;
+}
+
+.newsletter-section .form-control::placeholder {
+  color: #888888;
+}
+
+.newsletter-section .text-center p {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.newsletter-section .input-group {
+  max-width: 400px;
+}
+
+.app-banner {
+  min-height: 400px;
+  background-image: url("../img/Rectangle 19.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.app-banner p {
+  max-width: 420px;
+  line-height: 1.6;
+}
+
+.app-banner-overlay {
+  background-image: url(../img/Rectangle\ 20.png),url(../img/Rectangle\ 19.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.btn-pink-light {
+  background-color: #f7dcd6;
+  color: #864242;
+  border: none;
+}
+
+.btn-pink-light:hover {
+  background-color: #ebd0ca;
+  color: #000000;
+}
+
+.app-banner-text {
+  color: rgba(255, 255, 255, 0.85);
+}
+/* end newsletter download home section */
+
+/* start about home section */
+.about-card {
+  min-height: 200px;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.about-card p {
+  line-height: 1.8;
+}
+
+.about-objectives {
+  background-image: url("../img/vission-bg.png");
+}
+
+.about-visions {
+  background-image: url("../img/vission-bg-1.png");
+}
+
+.about-missions {
+  background-image: url("../img/vission-bg-2.png");
+}
+/* end about home section */
+
+/* start footer home section */
+.footer-logo {
+  height: 50px;
+}
+
+.footer-info p {
+  line-height: 1.8;
+}
+
+.footer-mail-icon {
+  width: 50px;
+  height: 50px;
+  background-color: #fdeee7;
+}
+
+.footer-mail-icon img {
+  width: 22px;
+}
+
+.footer-mail-link {
+  color: #e26965;
+}
+
+.site-footer a:hover {
+  color: #e26965 !important;
+}
+/* end footer home section */
